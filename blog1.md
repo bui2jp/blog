@@ -1,7 +1,9 @@
 # はじめてのブログ
 
-## section1
+## 設定
+setting -> Pages -> [Build and deployment] の設定
 
-## section2
 
-## section3
+![github_page.png](./github_page.png)
+
+

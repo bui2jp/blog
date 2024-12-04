@@ -1,8 +1,9 @@
 # github page　でブログをはじめたいな
 
+## はじめに
 
-## 設定
-setting -> Pages -> [Build and deployment] の設定
+## blog 一覧
+| 一覧 |
+| --- |
+|[GitHub Page ではじめてのブログ](./blog1.md)|
 
-
-![github_page.png](./github_page.png)
