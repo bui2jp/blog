@@ -1,9 +1,9 @@
-# github page　でブログをはじめたいな
+# github page　でブログをはじめる
 
 ## はじめに
 
 ## blog 一覧
-| 一覧 |
-| --- |
-|[GitHub Page ではじめてのブログ](./blog1.md)|
+| タイトル |公開日|
+| --- | --- |
+|[GitHub Page ではじめてのブログ](./blog1.md)| 2024/12|
 
