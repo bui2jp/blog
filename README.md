@@ -1,4 +1,4 @@
-# github page　でブログをはじめる
+# github page でブログ
 
 ## blog 一覧
 
