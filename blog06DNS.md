@@ -1,1 +1,12 @@
-# DNSについて（基礎）
+# DNSについて
+
+基礎知識
+
+A (ipv4)
+AAAA (ipv6)
+CNAME (エイリアス)
+MX (mail)
+NS (Name Server)
+TXT
+
+## dig, nslookup
