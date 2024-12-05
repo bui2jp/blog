@@ -34,6 +34,7 @@
 ## docker build -t myapp:v1 --no-cache .
 ## Dockerfile
 ```
+cat Dockerfile
 FROM python:3.11-bullseye
 
 WORKDIR /app
