@@ -16,6 +16,7 @@ git status
 
 git log
 git log --oneline --graph
+git log --pretty=format:'%h %ad %s'
 
 git add . 
 git add <filename>
