@@ -2,6 +2,19 @@
 
 ## blog 一覧
 
-- 2024/12 [2つ目のブログ](./blog1.md) 
-- 2024/12 [GitHub Page ではじめてのブログ](./blog1.md) 
+- 2024/12 [gitコマンド](./blog03.md) 
+- 2024/12 [vscodeのショートカット](./blog02.md) 
+- 2024/12 [GitHub Page ではじめてのブログ](./blog01.md) 
 
+## ファイル構成
+```
+$ pwd
+/Users/<username>/blog
+$ tree
+.
+├── README.md
+├── blog1.md
+├── blog2.md
+├── blog3.md
+└── github_page.png
+```
