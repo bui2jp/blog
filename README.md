@@ -2,7 +2,8 @@
 
 ## blog 一覧
 
-- 2024/12 [gitコマンド](./blog03.md) 
+- 2024/12 [az コマンド](./blog04.md) 
+- 2024/12 [git コマンド](./blog03.md) 
 - 2024/12 [vscodeのショートカット](./blog02.md) 
 - 2024/12 [GitHub Page ではじめてのブログ](./blog01.md) 
 
