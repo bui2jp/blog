@@ -1,7 +1,7 @@
 # linux コマンド
 
 ## cmd > output.txt 2>&1
-- ファイルディスクリプタ２番の出力先をファイルディスクリプタ１番を複製したものに付け替える
+ファイルディスクリプタ２番の出力先をファイルディスクリプタ１番を複製したものに付け替える
 ## vi (:set number)
 ## grep -i "pattern" file.txt
 ## sed 's/old/new/g' file.txt
