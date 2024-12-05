@@ -5,6 +5,9 @@
 git branch 
 git branch <new branch name>
 git branch -D <target branch> 
+git branch -vv
+git branch --set-upstream-to=remote/main main
+ブランチのデフォルトのリモートリポジトリを変更する
 
 git checkout <branch name>
 git checkout -b <branch name>
@@ -37,6 +40,8 @@ git stash clear
 
 git remote
 git remote -v
+git remote add origin2 git@github.com:bui2jp/blog.git
+git remote remove origin2
 ```
 
 # rebaseでのコミット修正について
