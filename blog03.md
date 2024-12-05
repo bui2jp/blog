@@ -94,3 +94,23 @@ d6fd43a Merge pull request #6 from bui2jp/feature/dev1
 | 既存のコミットに影響を | 与えない | 与える |
 
 rebase は共同開発の現場では、他人のコミットを変更してしまう可能性がある。利用する場合注意して。push していない、ローカルの開発内容であれば基本的に Rebase しても問題なし。
+
+# エイリアス　（ショートカット）
+
+設定
+```
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+```
+
+確認
+```
+$ git config --global -l 
+:
+alias.co=checkout
+alias.br=branch
+alias.ci=commit
+alias.st=status
+```
