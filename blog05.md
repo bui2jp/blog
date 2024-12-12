@@ -15,6 +15,11 @@ sed -E 's/[0-9]+/NUMBER/g' example.txt
 ```
 
 ## awk -F ',' '{print $1, $2+10, $3}' file.txt
+```
+拡張正規表現
+awk -E '/(foo|bar)baz/' example.txt
+```
+
 ## tree -L 2 ./
 ## top
 
