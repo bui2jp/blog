@@ -3,6 +3,9 @@
 ## cmd > output.txt 2>&1
 ファイルディスクリプタ２番の出力先をファイルディスクリプタ１番を複製したものに付け替える
 ## vi (:set number)
+```
+:%s/apple/orange/g
+```
 ## grep -i "pattern" file.txt
 ```
 拡張正規表現
