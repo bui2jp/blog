@@ -4,7 +4,16 @@
 ファイルディスクリプタ２番の出力先をファイルディスクリプタ１番を複製したものに付け替える
 ## vi (:set number)
 ## grep -i "pattern" file.txt
+```
+拡張正規表現
+grep -E '[0-9]+' example.txt
+```
 ## sed 's/old/new/g' file.txt
+```
+拡張正規表現
+sed -E 's/[0-9]+/NUMBER/g' example.txt
+```
+
 ## awk -F ',' '{print $1, $2+10, $3}' file.txt
 ## tree -L 2 ./
 ## top
@@ -47,3 +56,7 @@ RUN python -m pip install gunicorn
 
 CMD ["python3", "-m", "gunicorn", "-b", "0.0.0.0:8000", "main:app"]
 ```
+
+
+# 正規表現（Basic Regular Expressions, BRE）
+# 拡張正規表現（ERE）
