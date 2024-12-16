@@ -9,6 +9,10 @@
 - ⇧ : Shift
 - ^ : Control
 
+## 拡大・縮小
+- Command + shift + "="
+- Command + shift + "-"
+
 ## 編集
 
 - 行の移動 : Alt + 上下
