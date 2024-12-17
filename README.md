@@ -1,6 +1,8 @@
 # github page でブログ
 
-## blog 一覧
+## General
+
+- 2024/12 [システム開発の工程](./blog08process.md)
 - 2024/12 [正規表現](./blog07re.md)
 - 2024/12 [DNS](./blog06DNS.md)
 - 2024/12 [docker コマンド](./blog05docker.md)
@@ -9,6 +11,10 @@
 - 2024/12 [git コマンド](./blog03.md)
 - 2024/12 [vscodeのショートカット(Mac)](./blog02.md)
 - 2024/12 [GitHub Page ではじめてのブログ](./blog01.md)
+
+## Specific
+
+- 20xx/xx/xx [Azure Open AI (API)](./blogxx.md)
 
 ## ファイル構成
 ```
