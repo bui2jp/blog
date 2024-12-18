@@ -18,12 +18,12 @@
 
 
 ## Portfolio
-| skill | |
+| Skill | Content |
 | --- | --- |
-| OS | window, linux, iOS|
-| PG | C++, Java, JS(TS), Python, Golang ... |
-| DB | Oracle, Postgrel, MySQL, ... |
-| Cloud | AWS, Azure, GCP |
+| OS | Window, Linux, iOS, Android |
+| PG | C++, Java, JS(TS), Python, Golang, etc  |
+| DB | Oracle, Postgrel, MySQL, etc |
+| Cloud | Azure, AWS, GCP |
 
 
 ## ファイル構成
