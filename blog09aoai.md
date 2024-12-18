@@ -12,7 +12,7 @@ APIはよく似ているが、別ものなので変更する場合はソース�
 
 | Azrue Open AI | ChatGPT |
 | :--- | :--- |
-|> pip install openai<br><br>from openai import AzureOpenAI|> pip install openai<br><br>import openai|
+| $ pip install openai<br><br>from openai import AzureOpenAI | $ pip install openai<br><br>import openai|
 
 ### azure open ai
 ```
