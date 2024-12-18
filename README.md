@@ -23,7 +23,7 @@
 | OS | window, linux, iOS|
 | PG | C++, Java, JS(TS), Python, Golang ... |
 | DB | Oracle, Postgrel, MySQL, ... |
-| Cloud | AWS, Azure |
+| Cloud | AWS, Azure, GCP |
 
 
 ## ファイル構成
