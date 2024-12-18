@@ -14,7 +14,7 @@
 
 ## Specific
 
-- 20xx/xx/xx [Azure Open AI (API)](./blogxx.md)
+- 2024/12/18 [Azure Open AI (API)について](./blog09aoai.md)
 
 ## ファイル構成
 ```
