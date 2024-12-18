@@ -19,7 +19,7 @@
 
 ## Portfolio
 | Skill | Content |
-| --- | --- |
+| ---- | ---- |
 | OS | Window, Linux, iOS, Android |
 | PG | C++, Java, JS(TS), Python, Golang, etc  |
 | DB | Oracle, Postgrel, MySQL, etc |
