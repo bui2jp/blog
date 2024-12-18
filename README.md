@@ -1,4 +1,4 @@
-# github page でブログ
+# 個人ブログ
 
 ## General
 
