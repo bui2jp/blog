@@ -1,3 +1,9 @@
+# 個人ブログ
+
+## Specific
+
+- 2024/12/18 [Azure Open AI (API)について](./blog09aoai.md)
+
 ## General
 
 - 2024/12 [システム開発の工程](./blog08process.md)
@@ -10,9 +16,15 @@
 - 2024/12 [vscodeのショートカット(Mac)](./blog02.md)
 - 2024/12 [GitHub Page ではじめてのブログ](./blog01.md)
 
-## Specific
 
-- 2024/12/18 [Azure Open AI (API)について](./blog09aoai.md)
+## Portfolio
+| skill | |
+| --- | --- |
+| OS | window, linux, iOS|
+| PG | C++, Java, JS(TS), Python, Golang ... |
+| DB | Oracle, Postgrel, MySQL, ... |
+| Cloud | AWS, Azure |
+
 
 ## ファイル構成
 ```
