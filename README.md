@@ -28,6 +28,7 @@
 
 
 ## ファイル構成
+
 ```
 $ pwd
 /Users/<username>/blog
