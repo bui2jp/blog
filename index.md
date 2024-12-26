@@ -2,6 +2,7 @@
 
 ## Specific
 
+- 2024/12/26 [AWS Lambda](./blog13aws-lambda.md)
 - 2024/12/18 [Azure Open AI (API)について](./blog09aoai.md)
 
 ## General
@@ -13,19 +14,17 @@
 - 2024/12 [linux コマンド](./blog05linux.md)
 - 2024/12 [az コマンド](./blog04.md)
 - 2024/12 [git コマンド](./blog03.md)
-- 2024/12 [vscodeのショートカット(Mac)](./blog02.md)
+- 2024/12 [vscode のショートカット(Mac)](./blog02.md)
 - 2024/12 [GitHub Page ではじめてのブログ](./blog01.md)
-
 
 ## Portfolio
 
-| Skill | Content |
-| ---- | ---- |
-| OS | Window, Linux, iOS, Android |
-| PG | C++, Java, JS(TS), Python, Golang, etc  |
-| DB | Oracle, Postgrel, MySQL, etc |
-| Cloud | Azure, AWS, GCP |
-
+| Skill | Content                                |
+| ----- | -------------------------------------- |
+| OS    | Window, Linux, iOS, Android            |
+| PG    | C++, Java, JS(TS), Python, Golang, etc |
+| DB    | Oracle, Postgrel, MySQL, etc           |
+| Cloud | Azure, AWS, GCP                        |
 
 ## ファイル構成
 
