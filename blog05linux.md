@@ -1,29 +1,40 @@
 # linux コマンド
 
 ## cmd > output.txt 2>&1
+
 ファイルディスクリプタ２番の出力先をファイルディスクリプタ１番を複製したものに付け替える
+
 ## vi (:set number)
+
 ```
 :%s/apple/orange/g
 ```
+
 ## grep -i "pattern" file.txt
+
 ```
 拡張正規表現
 grep -E '[0-9]+' example.txt
 ```
+
 ## sed 's/old/new/g' file.txt
+
 ```
 拡張正規表現
 sed -E 's/[0-9]+/NUMBER/g' example.txt
 ```
 
 ## awk -F ',' '{print $1, $2+10, $3}' file.txt
+
 ```
 拡張正規表現
 awk -E '/(foo|bar)baz/' example.txt
 ```
+
 ## find
+
 ファイルの検索
+
 ```
 find . -name "*.md"
 ./blog02.md
@@ -38,13 +49,19 @@ find . -name "*.md"
 ```
 
 ## xargs
+
 標準入力から受け取ったデータを他のコマンドの引数として渡す
+
 ```
 echo "aaa bbb ccc" | xargs ls
 ```
 
 ## jq
-JSONデータのフィルタリング、変換、集計などを行う
+
+JSON データのフィルタリング、変換、集計などを行う
+
+フィルタ条件や出力する項目を `|` (パイプ) でつなげて利用する
+
 ```
 # 整形
 echo '{"name":"alice","age": 30,"city":"tokyo"}' | jq .
@@ -61,9 +78,19 @@ echo '{"name":"alice","age": 30,"city":"tokyo"}' | jq .name
 # -r 引用符(")を削除
 echo '{"name":"alice","age": 30,"city":"tokyo"}' | jq -r .name
 alice
+
+# selectで抽出（配列から）
+echo '[{"name":"alice","age": 30,"city":"tokyo"},{"name":"bob","age": 40,"city":"osaka"}]' | jq '.[] | select(.name == "alice")'
+{
+  "name": "alice",
+  "age": 30,
+  "city": "tokyo"
+}
+
 ```
 
 ## tree -L 2 ./
+
 ```
 tree -L 1 /
 /
@@ -90,19 +117,31 @@ tree -L 1 /
 ## top
 
 # network
+
 ## ssh, sftp
+
 ```
 ssh -i <keyfile.pem> username@hostname
 ```
+
 ```
 sftp -i <keyfile.pem> username@hostname
 ```
+
 ## telnet
+
 ## ping
+
 ## ip
+
 ## traceroute
+
 ## netstat
+
 ## net/nbtstat
+
 ## dig
+
 ## nslookup
+
 ## tcpdump
