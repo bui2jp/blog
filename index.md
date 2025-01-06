@@ -1,11 +1,13 @@
 # 個人ブログ
 
 ## Specific
-
+- 2024/12/25 [AWS IoT基礎](./blog12awsiot.md)
+- 2024/12/25 [LLMについて(Llama 3.2, Ollama)](./blog09aoai.md)
 - 2024/12/18 [Azure Open AI (API)について](./blog09aoai.md)
 
 ## General
 
+- 2024/12 [aws コマンド](./blog10aws.md)
 - 2024/12 [システム開発の工程](./blog08process.md)
 - 2024/12 [正規表現](./blog07re.md)
 - 2024/12 [DNS](./blog06DNS.md)
