@@ -143,3 +143,5 @@ alias.st=status
 | GitHub Flow             | シンプルで小規模                           | main (本番へ deploy)<br>feature/\*                                          |
 | GitLab Flow             | GitHub Flow に環境ごとのブランチを追加     | main (本番へ deploy)<br>develop<br>feature/\*<br>staging<br>production      |
 | Trunk Based Development | 単一のブランチに直接コミット               | main (本番へ deploy)                                                        |
+
+この blog は、`Trunk Based Development` で運用していると言える。
