@@ -17,7 +17,7 @@
 - 2025/01 [linux コマンド](./blog05linux.md)|
 - 2024/12 [az コマンド](./blog04.md)|
 - 2025/01 [git の基本的な使い方](./blog03.md)|
-- 2024/12 [vscode ショートカット](./blog02.md)|
+- 2025/01 [vscode ショートカット(Mac)](./blog02.md)|
 - 2024/12 [GitHub Page での簡単なブログの始め方](./blog01.md)|
 
 ## Portfolio

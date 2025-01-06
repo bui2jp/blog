@@ -1,4 +1,4 @@
-# vscode ショートカット
+# vscode ショートカット(Mac)
 
 なかなか身につかないショートカットキー
 
@@ -10,6 +10,7 @@
 - ^ : Control
 
 ## 拡大・縮小
+
 - Command + shift + "="
 - Command + shift + "-"
 
