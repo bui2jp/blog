@@ -8,6 +8,12 @@ aws-cli/2.22.23 Python/3.12.6 Darwin/23.6.0 exe/x86_64
 ```
 aws configure
 ```
+認証情報は `~/.aws/credentials` に保存される
+
+確認
+```
+aws sts get-caller-identity
+```
 
 ec2
 ```
