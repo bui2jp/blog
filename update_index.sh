@@ -19,7 +19,7 @@ for file in blog*.md; do
     # ファイル名を取得
     filename=$(basename "$file")
     # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
-    sed -i "/$filename/c\- $mod_date [$title](./$filename)|" "$TEMP_FILE"
+    sed -i "/$filename/c\- $mod_date [$title](./$filename)" "$TEMP_FILE"
   fi
 done
 
