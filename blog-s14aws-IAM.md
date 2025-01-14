@@ -48,4 +48,28 @@ Condition : ポリシーが適用される条件
 - IAM ロールを使用する　クレデンシャルの漏洩防止
 - STS(Security Token Service) の利用　一時的なセキュリティ認証情報を提供
 
+- CloudTrail の利用　 AWS アカウントで行われた操作を記録
+
 ## ID と権限のライフサイクル管理 (Part2)
+
+- アクティビティの監視
+
+AWS CloudTrail, AWS CloudWatch, AWS Config, AWS CloudFront などを活用する
+
+- アクセスレベル (List, Read, Write, Permissions) の管理
+  アクセスアドバイザー
+  IAM ポリシーを定期的に確認
+
+- 不要な認証情報の削除
+  credential report (認証情報レポート)　ポータルから作成できる
+
+- 認証情報の定期的なローテーション
+  アクセスキーもローテーションの対象にする
+
+ライフサイクル管理
+
+# IAM Tips
+
+基本の設定
+初期設定
+グループを活用しよう(AllUsers, Admin, Developer, Manager)
