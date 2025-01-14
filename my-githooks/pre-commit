@@ -1,0 +1,12 @@
+#!/bin/sh
+echo ""
+echo ""
+echo "Start my pre-commit hook .... update index.md ..."
+echo ""
+echo ""
+
+# update_index.sh スクリプトを実行
+bash update_index.sh
+
+# 更新された index.md をコミットに追加
+git add index.md
