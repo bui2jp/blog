@@ -45,4 +45,7 @@ Condition : ポリシーが適用される条件
 
 ## 権限の委任 (Part2)
 
+- IAM ロールを使用する　クレデンシャルの漏洩防止
+- STS(Security Token Service) の利用　一時的なセキュリティ認証情報を提供
+
 ## ID と権限のライフサイクル管理 (Part2)
