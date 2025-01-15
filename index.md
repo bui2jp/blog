@@ -1,4 +1,4 @@
-# 個人ブログ (更新日時：2025/01/15 09:15 JST)
+# 個人ブログ (更新日時：2025/01/15 09:18 JST)
 
 ## Specific
 
@@ -24,26 +24,31 @@
 
 ## Portfolio
 
-| Skill | Content                                |
-| ----- | -------------------------------------- |
-| OS    | Window, Linux, iOS, Android            |
-| PG    | C++, Java, JS(TS), Python, Golang, etc |
-| DB    | Oracle, Postgrel, MySQL, etc           |
-| Cloud | Azure, AWS, GCP                        |
+| Skill | Content                                   |
+| ----- | ----------------------------------------- |
+| OS    | Window, Linux, iOS, Android               |
+| PG    | C, C++, Java, JS(TS), Python, Golang, etc |
+| DB    | Oracle, Postgrel, MySQL, etc              |
+| Cloud | Azure, AWS, GCP                           |
 
 ## ファイル構成
 
 ```
 $ pwd
 /Users/<username>/blog
-$ tree
+ $ tree
 .
-├── README.md
-├── blog1.md
-├── blog2.md
-├── blog3.md
-|   :
+├── CNAME
+├── _config.yml
+- 2024/12 [Azure Open AI](./blog-s09aoai.md)
+├── :
+- 2024/12 [GitHub Page での簡単なブログの始め方](./blog01.md)
+├── :
 ├── github_page.png
-|   :
+├── index.md
+├── my-githooks
+│   └── pre-commit
+├── setup-my-githook.sh
+└── update_index.sh
 
 ```
