@@ -1,4 +1,4 @@
-# 個人ブログ (更新日時：2025/01/15 13:18 JST)
+# 個人ブログ (更新日時：2025/01/15 13:20 JST)
 
 ## Specific
 
@@ -40,9 +40,9 @@ $ pwd
 .
 ├── CNAME
 ├── _config.yml
-- 2024/12 [Azure Open AI](./blog-s09aoai.md)
+├── blog-sxxxxx.md
 ├── :
-- 2024/12 [GitHub Page での簡単なブログの始め方](./blog01.md)
+├── blogxxxxx.md
 ├── :
 ├── github_page.png
 ├── index.md
