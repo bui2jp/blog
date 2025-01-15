@@ -17,3 +17,18 @@
 - Kinesis Data Streams
 - Kinesis Data Firehose
 - Amazon Managed Service for Apache Flink (旧: Kinesis Data Analytics)
+
+# IoT Core
+
+MQTT メッセージブローカー
+
+- メッセージ編
+  トピック、ワイルドカードの利用, メッセージ、QoS0, Qos1, レベル、
+
+* QoS2 はサポートしていない
+
+- プロビジョニング編
+
+- セキュリティー編
+
+- ルールエンジン、デバイスシャドウ編
