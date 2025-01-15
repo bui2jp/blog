@@ -1,4 +1,4 @@
-# 個人ブログ (更新日時：2025/01/15 09:18 JST)
+# 個人ブログ (更新日時：2025/01/15 13:18 JST)
 
 ## Specific
 
@@ -46,8 +46,10 @@ $ pwd
 ├── :
 ├── github_page.png
 ├── index.md
+├── :
 ├── my-githooks
 │   └── pre-commit
+├── :
 ├── setup-my-githook.sh
 └── update_index.sh
 
