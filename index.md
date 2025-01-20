@@ -1,4 +1,4 @@
-# 個人ブログ (更新日時：2025/01/15 15:38 JST)
+# 個人ブログ (更新日時：2025/01/20 09:53 JST)
 
 ## Specific
 
@@ -14,7 +14,7 @@
 - 2025/01 [aws cli](./blog10aws.md)
 - 2025/01 [システム開発基礎](./blog08process.md)
 - 2025/01 [正規表現](./blog07re.md)
-- 2024/12 [DNSについて](./blog06DNS.md)
+- 2025/01 [DNS について](./blog06DNS.md)
 - 2024/12 [docker コマンド](./blog05docker.md)
 - 2025/01 [linux コマンド](./blog05linux.md)
 - 2024/12 [az コマンド](./blog04.md)
