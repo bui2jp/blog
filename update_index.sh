@@ -25,7 +25,7 @@ done
 
 # 個人ブログ (更新日時：yyyy/mm/dd hh24:mi JST)
 # titleの更新日時の部分を現在の日時で更新する
-sed -i "1s|.*|# ブログ(up：$(date +'%Y/%m/%d %H:%M JST'))|" "$TEMP_FILE"
+sed -i "1s|.*|# blog($(date +'%Y/%m/%d %H:%M JST'))|" "$TEMP_FILE"
 
 # 一時ファイルを index.md に上書き
 mv "$TEMP_FILE" "$INDEX_FILE"
