@@ -1,5 +1,9 @@
 # AWS IoT
 
+[AWS IoT Core デベロッパーガイド](https://docs.aws.amazon.com/ja_jp/iot/latest/developerguide/what-is-aws-iot.html) は一通り読んでおく。
+
+[始め方](https://aws.amazon.com/jp/blogs/news/steps-to-learn-aws-iot-for-beginner/)
+
 ## 各種サービス
 
 | サービス名                    | 説明                                                                                             |
