@@ -14,6 +14,7 @@ for file in blog*.md; do
   if [ -f "$file" ]; then
     # ファイルの更新日時を取得
     mod_date=$(date -r "$file" +"%Y/%m")
+    mod_date=$(git log -1 --format=%cd --date=format:"%Y/%m/%d" -- "$file")
     # ファイルのタイトルを取得
     title=$(grep -m 1 '^# ' "$file" | sed 's/# //')
     # ファイル名を取得
