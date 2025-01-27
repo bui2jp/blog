@@ -1,8 +1,8 @@
-# blog(2025/01/27 16:57 JST)
+# blog(2025/01/27 17:02 JST)
 
 ## Specific
 
-- 2025/01/22 [AWS Cost 通知](./blog-s16cost-notification.md)
+- 2025/01/27 [AWS Cost 通知](./blog-s16cost-notification.md)
 - 2025/01/14 [AWS VPC (ネットワーク)](./blog-s15aws-VPC.md)
 - 2025/01/15 [AWS IAM](./blog-s14aws-IAM.md)
 - 2025/01/06 [AWS Lambda](./blog-s13aws-lambda.md)
