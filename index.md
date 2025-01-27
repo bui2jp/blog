@@ -1,4 +1,4 @@
-# blog(2025/01/27 17:02 JST)
+# blog(2025/01/27 17:26 JST)
 
 ## Specific
 
@@ -29,7 +29,7 @@
 | ----- | ----------------------------------------- |
 | OS    | Window, Linux, iOS, Android               |
 | PG    | C, C++, Java, JS(TS), Python, Golang, etc |
-| DB    | Oracle, Postgrel, MySQL, etc              |
+| DB    | Oracle, PostgreSQL, MySQL, etc            |
 | Cloud | Azure, AWS, GCP                           |
 
 ## ファイル構成
