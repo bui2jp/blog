@@ -1,5 +1,11 @@
 # AWS Cost 通知
 
+## 基本
+
+AWS Cost Explorer API を利用して、AWS のコストを取得し、通知する。
+
+<img src="./aws-cost-report.drawio.png" alt="image" width="500"/>
+
 ## Line への通知
 
 ## Skype への通知 (断念...)
