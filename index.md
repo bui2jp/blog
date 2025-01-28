@@ -1,10 +1,10 @@
-# blog(2025/01/28 16:48 JST)
+# blog(2025/01/28 16:50 JST)
 
 ## Specific
 
--  [AWS API Gateway](./blog-s17apigw.md)
+- 2025/01/28 [AWS API Gateway](./blog-s17apigw.md)
 - 2025/01/28 [AWS Cost 通知](./blog-s16cost-notification.md)
-- 2025/01/14 [AWS VPC (ネットワーク)](./blog-s15aws-VPC.md)
+- 2025/01/28 [AWS VPC (ネットワーク)](./blog-s15aws-VPC.md)
 - 2025/01/15 [AWS IAM](./blog-s14aws-IAM.md)
 - 2025/01/06 [AWS Lambda](./blog-s13aws-lambda.md)
 - 2025/01/21 [AWS IoT](./blog-s12awsiot.md)
