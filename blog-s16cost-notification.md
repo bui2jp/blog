@@ -6,6 +6,10 @@ AWS Cost Explorer API を利用して、AWS のコストを取得し、通知す
 
 <img src="./aws-cost-report.drawio.png" alt="image" width="500"/>
 
+## 料金
+
+各リクエストには 0.01 USD の費用がかかる。
+
 ## Line への通知
 
 ## Skype への通知 (断念...)
