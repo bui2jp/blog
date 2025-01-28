@@ -35,4 +35,6 @@ VPC フローログ、VPC Traffic Mirroring
 
 GuardDuty
 
-## まとめ
+## その他
+
+Elastic IP の消し忘れに注意。課金される。
