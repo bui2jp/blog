@@ -1,7 +1,8 @@
-# blog(2025/01/28 16:50 JST)
+# blog(2025/01/30 13:12 JST)
 
 ## Specific
 
+-  [AWS OpenSearch(Elastic Search)](./blog-s18opensearch.md)
 - 2025/01/28 [AWS API Gateway](./blog-s17apigw.md)
 - 2025/01/28 [AWS Cost 通知](./blog-s16cost-notification.md)
 - 2025/01/28 [AWS VPC (ネットワーク)](./blog-s15aws-VPC.md)
