@@ -1,5 +1,25 @@
 # git の基本的な使い方
 
+## 初期設定
+
+linux での設定(ssh 設定)
+
+```
+# sshキーの生成
+ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_ed25519_github
+
+# SSHエージェントの起動
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519_github
+
+# 公開キーをGitHubへ登録
+cat ~/.ssh/id_ed25519_github.pub
+
+# リポジトリのクローン
+git clone git@github.com:bui2jp/blog.git
+
+```
+
 ## 最低限、習得する
 
 ```
