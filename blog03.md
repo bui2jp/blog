@@ -20,6 +20,16 @@ git clone git@github.com:bui2jp/blog.git
 
 ```
 
+SSHエージェントの起動は .bashrc へ登録
+```
+cat ~/.bashrc
+:
+# sshエージェントの起動
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519_github
+```
+* `eval` コマンドは、引数として渡された文字列をシェルコマンドとして実行します。
+
 ## 最低限、習得する
 
 ```
