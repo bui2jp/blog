@@ -1,8 +1,8 @@
-# blog(2025/02/03 10:47 JST)
+# blog(2025/02/03 14:10 JST)
 
 ## Specific
 
-- 2025/02/03 [Athena](./blog-s19athena.md)
+- 2025/02/03 [AWS Athena (SQL)](./blog-s19athena.md)
 - 2025/02/03 [AWS 検索サービス](./blog-s18opensearch.md)
 - 2025/01/28 [AWS API Gateway](./blog-s17apigw.md)
 - 2025/01/28 [AWS Cost 通知](./blog-s16cost-notification.md)
@@ -15,6 +15,7 @@
 
 ## General
 
+-  [WSL (Windows Subsystem for Linux)](./blog_WSL.md)
 - 2025/01/23 [aws cli](./blog10aws.md)
 - 2025/01/06 [システム開発基礎](./blog08process.md)
 - 2025/01/06 [正規表現](./blog07re.md)
