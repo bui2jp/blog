@@ -9,4 +9,6 @@ echo ""
 bash update_index.sh
 
 # 更新された index.md をコミットに追加
+cp index.md README.md
 git add index.md
+git add README.md
