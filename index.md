@@ -1,4 +1,4 @@
-# blog(2025/02/03 14:36 JST)
+# blog(2025/02/03 14:38 JST)
 
 ## Specific
 
@@ -25,7 +25,7 @@
 - 2024/12/12 [az コマンド](./blog04.md)
 - 2025/01/06 [git の基本的な使い方](./blog03.md)
 - 2025/01/06 [vscode ショートカット(Mac)](./blog02.md)
-- 2024/12/05 [GitHub Page での簡単なブログの始め方](./blog01.md)
+- 2025/02/03 [GitHub Page での簡単なブログの始め方](./blog01.md)
 
 ## Portfolio
 
