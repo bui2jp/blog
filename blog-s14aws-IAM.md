@@ -75,3 +75,7 @@ AWS CloudTrail, AWS CloudWatch, AWS Config, AWS CloudFront などを活用する
 基本の設定
 初期設定
 グループを活用しよう(AllUsers, Admin, Developer, Manager)
+
+# IAM Access Analyzer
+
+最小特権を実現
