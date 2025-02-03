@@ -1,4 +1,4 @@
-# blog(2025/02/03 14:10 JST)
+# blog(2025/02/03 14:36 JST)
 
 ## Specific
 
@@ -15,7 +15,7 @@
 
 ## General
 
--  [WSL (Windows Subsystem for Linux)](./blog_WSL.md)
+- 2025/02/03 [WSL (Windows Subsystem for Linux)](./blog_WSL.md)
 - 2025/01/23 [aws cli](./blog10aws.md)
 - 2025/01/06 [システム開発基礎](./blog08process.md)
 - 2025/01/06 [正規表現](./blog07re.md)
