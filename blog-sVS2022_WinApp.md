@@ -1,4 +1,4 @@
-# Visual Studio 2022
+# Windows Form App (VS2022)
 
 Windowsアプリ (Hello World)を作成
 
@@ -22,10 +22,10 @@ UIのフレームワークのこと。
 ## UI あれこれ
 
 見た目を整えるライブラリが存在している
-多数あるので。。。
 
 Material Design in Xaml
 WPF-UI
 WinUI3
 
-## Material Design in Xaml
+## Material Design in Xaml 使ってみる
+

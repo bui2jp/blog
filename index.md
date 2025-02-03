@@ -1,7 +1,7 @@
-# blog(2025/02/03 17:13 JST)
+# blog(2025/02/04 08:47 JST)
 
 ## Specific
-- 2025/02/03 [Visual Studio 2022](./blog-sVS2022_WinApp.md)
+- 2025/02/03 [Windows Form App (VS2022)](./blog-sVS2022_WinApp.md)
 - 2025/02/03 [AWS Athena (SQL)](./blog-s19athena.md)
 - 2025/02/03 [AWS 検索サービス](./blog-s18opensearch.md)
 - 2025/01/28 [AWS API Gateway](./blog-s17apigw.md)
