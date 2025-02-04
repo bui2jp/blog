@@ -94,3 +94,12 @@ AWS CloudTrail, AWS CloudWatch, AWS Config, AWS CloudFront などを活用する
 | 分析された IAM ロールとユーザーの数 | $0.20    |
 
 ロールの定義や、ユーザー数に応じて料金が発生するので注意。
+
+
+## (Cognito) ユーザープール と IDプール
+
+- IAMとCognitoは別もの。
+
+ユーザープール: ユーザーの認証と管理
+
+ID プール: AWS リソースへのアクセス権限を管理

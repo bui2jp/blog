@@ -1,7 +1,8 @@
-# blog(2025/02/04 08:47 JST)
+# blog(2025/02/04 16:32 JST)
 
 ## Specific
-- 2025/02/03 [Windows Form App (VS2022)](./blog-sVS2022_WinApp.md)
+-  [パスキーについて](./blog-sPassKey.md)
+- 2025/02/04 [Windows Form App (VS2022)](./blog-sVS2022_WinApp.md)
 - 2025/02/03 [AWS Athena (SQL)](./blog-s19athena.md)
 - 2025/02/03 [AWS 検索サービス](./blog-s18opensearch.md)
 - 2025/01/28 [AWS API Gateway](./blog-s17apigw.md)
