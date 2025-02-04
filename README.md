@@ -1,14 +1,14 @@
-# blog(2025/02/04 16:32 JST)
+# blog(2025/02/04 16:33 JST)
 
 ## Specific
--  [パスキーについて](./blog-sPassKey.md)
+- 2025/02/04 [パスキーについて](./blog-sPassKey.md)
 - 2025/02/04 [Windows Form App (VS2022)](./blog-sVS2022_WinApp.md)
 - 2025/02/03 [AWS Athena (SQL)](./blog-s19athena.md)
 - 2025/02/03 [AWS 検索サービス](./blog-s18opensearch.md)
 - 2025/01/28 [AWS API Gateway](./blog-s17apigw.md)
 - 2025/01/28 [AWS Cost 通知](./blog-s16cost-notification.md)
 - 2025/01/28 [AWS VPC (ネットワーク)](./blog-s15aws-VPC.md)
-- 2025/02/03 [AWS IAM](./blog-s14aws-IAM.md)
+- 2025/02/04 [AWS IAM](./blog-s14aws-IAM.md)
 - 2025/01/06 [AWS Lambda](./blog-s13aws-lambda.md)
 - 2025/01/21 [AWS IoT](./blog-s12awsiot.md)
 - 2025/01/06 [LLM (Llama 3.2 言語モデル)](./blog-s11Llama.md)
