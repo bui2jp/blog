@@ -15,7 +15,7 @@
 - 2025/01/06 [Azure Open AI](./blog-s09aoai.md)
 
 ## General
-
+- 2025/02/05 [ASDF](./blog_ASDF.md)
 - 2025/02/03 [WSL (Windows Subsystem for Linux)](./blog_WSL.md)
 - 2025/01/23 [aws cli](./blog10aws.md)
 - 2025/01/06 [システム開発基礎](./blog08process.md)
