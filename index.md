@@ -1,4 +1,4 @@
-# blog(2025/02/04 16:33 JST)
+# blog(2025/02/05 14:50 JST)
 
 ## Specific
 - 2025/02/04 [パスキーについて](./blog-sPassKey.md)
