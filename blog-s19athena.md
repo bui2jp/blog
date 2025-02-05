@@ -84,4 +84,16 @@ Time: 3.456s
 
 ## パーティション分割
 
+tenant_id ごとに分ける例
+
+```sql
+CREATE EXTERNAL TABLE my_table (
+  id INT,
+  name VARCHAR(255),
+  value DOUBLE,
+  tenant_id INT -- パーティションキーとして使用する列
+)
+PARTITIONED BY (tenant_id INT)
+LOCATION 's3://my-bucket/data/';
+```
 ##
