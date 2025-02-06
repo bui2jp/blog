@@ -175,3 +175,30 @@ alias.st=status
 | Trunk Based Development | 単一のブランチに直接コミット               | main (本番へ deploy)                                                        |
 
 この blog は、`Trunk Based Development` で運用していると言える。
+
+
+## 改行コードの設定
+
+- linux : LF
+- windows : CRLF
+
+基本的には LF と CRLF を混在させないように。
+
+クロスプラットフォームを意識して LF に統一する。
+
+### core.autocrlf
+
+windows では `input` に設定する。（推奨）
+
+`input` : コミット時にWindows形式（CRLF）をLinux形式（LF）に変換しますが、チェックアウト時には変換しない。
+
+```
+git config --global core.autocrlf input
+```
+
+## 認証情報のキャッシュ
+
+windows では `wincred` Windows Credential Manager (資格情報マネージャー) に保存される。
+
+https/ssh のどちらかを利用する。
+windowsの場合は https が楽かも。
