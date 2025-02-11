@@ -1,4 +1,4 @@
-# blog(2025/02/06 13:23 JST)
+# blog(2025/02/11 13:44 JST)
 
 ## Specific
 - 2025/02/04 [パスキーについて](./blog-sPassKey.md)
@@ -24,7 +24,7 @@
 - 2024/12/13 [docker コマンド](./blog05docker.md)
 - 2025/01/06 [linux コマンド](./blog05linux.md)
 - 2024/12/12 [az コマンド](./blog04.md)
--  [git の基本的な使い方](./blog03Git.md)
+- 2025/02/06 [git の基本的な使い方](./blog03Git.md)
 - 2025/01/06 [vscode ショートカット(Mac)](./blog02.md)
 - 2025/02/03 [GitHub Page での簡単なブログの始め方](./blog01.md)
 
