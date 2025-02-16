@@ -1,6 +1,7 @@
-# blog(2025/02/16 09:37 JST)
+# blog(2025/02/16 09:38 JST)
 
 ## Specific
+- 2025/02/16 [AWS CICD](./blog-sAWSCICD.md)
 - 2025/02/04 [パスキーについて](./blog-sPassKey.md)
 - 2025/02/04 [Windows Form App (VS2022)](./blog-sVS2022_WinApp.md)
 - 2025/02/05 [AWS Athena (SQL)](./blog-s19athena.md)
