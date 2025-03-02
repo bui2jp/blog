@@ -25,6 +25,9 @@ docker run -it --rm \
 # これ以降はコンテナ内での操作
 #
 
+# edge をインストール
+npx playwright install msedge
+
 # プロジェクト作成
 npm init playwright@latest
 
@@ -47,6 +50,22 @@ docker run -it --rm \
 
 ## Edge をターゲットにする
 
+edge をインストール
+```
+npx playwright install msedge
+```
+
+playwright.config.ts に edge を追加
+```
+cat playwright.config.ts
+:
+/* Test against branded browsers. */
+    {
+      name: 'Microsoft Edge',
+      use: { ...devices['Desktop Edge'], channel: 'msedge' },
+    },
+:
+```
 
 ## テスト結果としてスクリーンショットを保存する
 ```
