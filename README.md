@@ -1,4 +1,4 @@
-# blog(2025/03/02 14:19 JST)
+# blog(2025/03/02 14:54 JST)
 
 ## Specific
 - 2025/03/02 [E2E Test Playwright](./blog-sPlaywright.md)

@@ -12,6 +12,9 @@ test('has title2', async ({ page }) => {
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/blog/);
+
+  // screen shot
+  await page.screenshot({ path: 'test-results/screenshot.png', fullPage: true });
 });
 
 // test('get started link', async ({ page }) => {

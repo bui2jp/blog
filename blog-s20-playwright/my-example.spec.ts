@@ -14,7 +14,7 @@ test('has title2', async ({ page }) => {
   await expect(page).toHaveTitle(/blog/);
 
   // screen shot
-  await page.screenshot({ path: 'screenshot.png' });
+  await page.screenshot({ path: 'test-results/screenshot.png', fullPage: true });
 });
 
 // test('get started link', async ({ page }) => {
