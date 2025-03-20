@@ -1,4 +1,4 @@
-# blog(2025/03/02 14:54 JST)
+# blog(2025/03/20 18:49 JST)
 
 ## Specific
 - 2025/03/02 [E2E Test Playwright](./blog-sPlaywright.md)
@@ -11,7 +11,7 @@
 - 2025/01/28 [AWS Cost 通知](./blog-s16cost-notification.md)
 - 2025/01/28 [AWS VPC (ネットワーク)](./blog-s15aws-VPC.md)
 - 2025/02/04 [AWS IAM](./blog-s14aws-IAM.md)
-- 2025/01/06 [AWS Lambda](./blog-s13aws-lambda.md)
+- 2025/03/20 [AWS Lambda](./blog-s13aws-lambda.md)
 - 2025/01/21 [AWS IoT](./blog-s12awsiot.md)
 - 2025/01/06 [LLM (Llama 3.2 言語モデル)](./blog-s11Llama.md)
 - 2025/01/06 [Azure Open AI](./blog-s09aoai.md)
