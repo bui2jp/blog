@@ -1,4 +1,4 @@
-# git の基本的な使い方
+# git 関連
 
 ## 初期設定
 
@@ -222,3 +222,48 @@ Branch Bに変更を反映させたくない場合は以下の方法がある。
 - リベースを行う
 
 基本的にコンフリクトは少なめに運用することが望ましい。コンフリクトの解消はローカルで行う。
+
+## Git LFS について
+Git LFS (Large File Storage) は、Git リポジトリで大きなファイルを効率的に管理するための拡張機能です。Git は通常、すべてのファイルをリポジトリに保存しますが、大きなファイルはリポジトリのサイズを増加させ、パフォーマンスに影響を与える可能性があります。Git LFS を使用すると、大きなファイルを Git リポジトリから分離し、代わりにポインタを保存します。
+
+使い方
+* githubではGit LFSを利用する
+
+
+* Git LFSをインストールする   
+  ```
+  sudo apt install git-lfs
+  ```
+
+* Git LFSを初期化する
+  ```
+   git lfs install
+   ```
+
+* Git LFSで管理するファイルの種類を指定する
+   ```
+   git lfs track "*.tar.gz"
+   git lfs track "*.zip"
+   cat .gitattributes
+   *.tar.gz filter=lfs diff=lfs merge=lfs -text
+   *.zip filter=lfs diff=lfs merge=lfs -text
+   ```
+
+* 既存のファイルをGit LFSで管理したい場合は lfs migrate コマンド
+   ```
+   git lfs migrate import --include="*.tar.gz,*.zip"
+
+   git push -f
+   ```
+
+* Git LFSで管理されているファイルを確認する
+   ```
+   git lfs ls-files
+   ```
+* Git LFSで管理されているファイルを削除する
+   ```
+   git lfs untrack "*.tar.gz"
+   git rm --cached *.tar.gz
+   git commit -m "remove large files"
+   ```
+
