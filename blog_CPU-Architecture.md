@@ -4,6 +4,7 @@ RISKとCISC
 
 ## RISC
 
+* シンプルな命令セット
 * RISC (Reduced Instruction Set Computer)
 * RISC-V
 * ARM (Advanced RISC Machine)
@@ -12,6 +13,7 @@ RISKとCISC
 
 ## CISC
 
+* 複雑な命令セット
 * CISC (Complex Instruction Set Computer)
 * x86
 * x86-64
