@@ -1,4 +1,4 @@
-# blog(2025/04/06 07:46 JST)
+# blog(2025/04/12 10:54 JST)
 
 ## Specific
 - 2025/03/02 [E2E Test Playwright](./blog-sPlaywright.md)
@@ -17,6 +17,7 @@
 - 2025/01/06 [Azure Open AI](./blog-s09aoai.md)
 
 ## General
+- 2025/04/12 [](./blog_CPU-Architecture.md)
 - 2025/02/05 [ASDF](./blog_ASDF.md)
 - 2025/02/03 [WSL (Windows Subsystem for Linux)](./blog_WSL.md)
 - 2025/01/23 [aws cli](./blog10aws.md)
@@ -26,7 +27,7 @@
 - 2024/12/13 [docker コマンド](./blog05docker.md)
 - 2025/01/06 [linux コマンド](./blog05linux.md)
 - 2024/12/12 [az コマンド](./blog04.md)
-- 2025/03/02 [git 関連](./blog03Git.md)
+- 2025/04/06 [git 関連](./blog03Git.md)
 - 2025/01/06 [vscode ショートカット(Mac)](./blog02.md)
 - 2025/02/03 [GitHub Page での簡単なブログの始め方](./blog01.md)
 

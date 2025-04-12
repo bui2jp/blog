@@ -267,3 +267,7 @@ Git LFS (Large File Storage) は、Git リポジトリで大きなファイル�
    git commit -m "remove large files"
    ```
 
+* Git LFSで管理されているファイルはポインタだけ取得する
+   ```
+   GIT_LFS_SKIP_SMUDGE=1 git clone <repository>
+   ```
