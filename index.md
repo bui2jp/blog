@@ -1,6 +1,8 @@
-# blog(2025/04/12 11:05 JST)
+# blog(2025/05/06 08:57 JST)
 
 ## Specific
+- 2025/05/06 [aws step functions](./blog-sAWSStepFunctions.md)
+- 2025/05/06 [Quick Emulator (QEMU)](./blog-sQEMU.md)
 - 2025/03/02 [E2E Test Playwright](./blog-sPlaywright.md)
 - 2025/02/16 [AWS CICD](./blog-sAWSCICD.md)
 - 2025/02/04 [パスキーについて](./blog-sPassKey.md)
