@@ -1,7 +1,7 @@
-# blog(2025/05/06 08:57 JST)
+# blog(2025/05/06 08:59 JST)
 
 ## Specific
-- 2025/05/06 [aws step functions](./blog-sAWSStepFunctions.md)
+- 2025/05/06 [AWS Step Functions](./blog-sAWSStepFunctions.md)
 - 2025/05/06 [Quick Emulator (QEMU)](./blog-sQEMU.md)
 - 2025/03/02 [E2E Test Playwright](./blog-sPlaywright.md)
 - 2025/02/16 [AWS CICD](./blog-sAWSCICD.md)
