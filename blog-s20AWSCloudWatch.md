@@ -1,6 +1,4 @@
-# Logs Insights QL (AWS Cloud Watch)
-
-[クエリ構文](https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/logs/CWL_QuerySyntax.html)
+# AWS Cloud Watch
 
 ## Custom Metrics
 
@@ -23,20 +21,30 @@ aws cloudwatch put-metric-data \
 * 1 metric あたり0.3USDかかる。これは月額料金。1000メトリックで300USD。別途APIコールなどの費用がかかります。
 * 1 metric とは namespace + metric name + dimension の組み合わせのこと。
 
+## Logs Insights QL （クエリ構文）
 
-## クエリ言語
+[クエリ構文](https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/logs/CWL_QuerySyntax.html)
 
 ### display 
+
 * 表示するフィールドを指定
 * `fields` で指定したフィールドの中から指定する
+
 ### fields
+
 * 表示するフィールド、filterするフィールドを指定
+
 ### filter
+
 * 正規表現をサポート
+
 ### filterIndex
+
 * インデックスが作成されたロググループのみをスキャンする
  indexの作成方法
+
 ### source
+
 * webコンソールでは指定できない
 * AWS Cli, SDK, API で指定する
 

@@ -1,7 +1,7 @@
-# blog(2025/05/24 11:48 JST)
+# blog(2025/05/24 17:20 JST)
 
 ## Specific
-- 2025/05/24 [Logs Insights QL (AWS Cloud Watch)](./blog-sAWSCloudWatch.md)
+- 2025/05/24 [AWS Cloud Watch](./blog-s20AWSCloudWatch.md)
 - 2025/05/24 [AWS Step Functions](./blog-sAWSStepFunctions.md)
 - 2025/05/06 [Quick Emulator (QEMU)](./blog-sQEMU.md)
 - 2025/03/02 [E2E Test Playwright](./blog-sPlaywright.md)
