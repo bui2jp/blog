@@ -1,4 +1,4 @@
-# blog(2025/05/24 11:44 JST)
+# blog(2025/05/24 11:48 JST)
 
 ## Specific
 - 2025/05/24 [Logs Insights QL (AWS Cloud Watch)](./blog-sAWSCloudWatch.md)
