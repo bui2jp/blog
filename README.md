@@ -1,8 +1,8 @@
-# blog(2025/05/24 11:10 JST)
+# blog(2025/05/24 11:44 JST)
 
 ## Specific
 - 2025/05/24 [Logs Insights QL (AWS Cloud Watch)](./blog-sAWSCloudWatch.md)
-- 2025/05/06 [AWS Step Functions](./blog-sAWSStepFunctions.md)
+- 2025/05/24 [AWS Step Functions](./blog-sAWSStepFunctions.md)
 - 2025/05/06 [Quick Emulator (QEMU)](./blog-sQEMU.md)
 - 2025/03/02 [E2E Test Playwright](./blog-sPlaywright.md)
 - 2025/02/16 [AWS CICD](./blog-sAWSCICD.md)
@@ -20,6 +20,7 @@
 - 2025/01/06 [Azure Open AI](./blog-s09aoai.md)
 
 ## General
+- 2025/05/24 [bash](./blog-bash.md)
 - 2025/04/12 [CPU Architectureについて](./blog_CPU-Architecture.md)
 - 2025/02/05 [ASDF](./blog_ASDF.md)
 - 2025/02/03 [WSL (Windows Subsystem for Linux)](./blog_WSL.md)
