@@ -18,6 +18,11 @@ else
     SED_OPTS="-i"
 fi
 
+# 特殊文字をエスケープする関数
+escape_sed() {
+    printf '%s' "$1" | sed 's/[&/\]/\\&/g'
+}
+
 # blog* 形式のファイルを検索
 for file in blog*.md; do
   if [ -f "$file" ]; then
@@ -34,7 +39,8 @@ for file in blog*.md; do
 
     # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
     #sed -i "/$filename/c\- $mod_date [$title](./$filename)" "$TEMP_FILE"
-    sed $SED_OPTS "/$filename/c\\- $mod_date [$title](./$filename)" "$TEMP_FILE"
+    # sed $SED_OPTS "/$filename/c\\- $mod_date [$title](./$filename)" "$TEMP_FILE"
+    sed $SED_OPTS "/$escaped_filename/c\\- $mod_date [$escaped_title](./$escaped_filename)" "$TEMP_FILE"
   fi
 done
 
