@@ -32,7 +32,7 @@ for file in blog*.md; do
     fi
     # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
     #sed -i "/$filename/c\- $mod_date [$title](./$filename)" "$TEMP_FILE"
-    sed $SED_OPTS "/$filename/c\- $mod_date [$title](./$filename)" "$TEMP_FILE"
+    sed $SED_OPTS "/$filename/c\\- $mod_date [$title](./$filename)" "$TEMP_FILE"
   fi
 done
 
