@@ -24,10 +24,10 @@ for file in blog*.md; do
     filename=$(basename "$file")
     # OSを判定して sed のオプションを設定
     if [ "$(uname)" = "Darwin" ]; then
-        # macOS の場合
+        # macOS
         SED_OPTS="-i ''"
     else
-        # Linux の場合
+        # Linux
         SED_OPTS="-i"
     fi
     # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
