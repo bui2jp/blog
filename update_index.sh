@@ -9,6 +9,15 @@ TEMP_FILE=$(mktemp)
 # index.md の内容を一時ファイルにコピー
 cp "$INDEX_FILE" "$TEMP_FILE"
 
+# OSを判定して sed のオプションを設定
+if [ "$(uname)" = "Darwin" ]; then
+    # macOS
+    SED_OPTS="-i ''"
+else
+    # Linux
+    SED_OPTS="-i"
+fi
+
 # blog* 形式のファイルを検索
 for file in blog*.md; do
   if [ -f "$file" ]; then
@@ -22,14 +31,7 @@ for file in blog*.md; do
     title=$(grep -m 1 '^# ' "$file" | sed 's/# //')
     # ファイル名を取得
     filename=$(basename "$file")
-    # OSを判定して sed のオプションを設定
-    if [ "$(uname)" = "Darwin" ]; then
-        # macOS
-        SED_OPTS="-i ''"
-    else
-        # Linux
-        SED_OPTS="-i"
-    fi
+
     # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
     #sed -i "/$filename/c\- $mod_date [$title](./$filename)" "$TEMP_FILE"
     sed $SED_OPTS "/$filename/c\\- $mod_date [$title](./$filename)" "$TEMP_FILE"
