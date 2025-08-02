@@ -20,6 +20,7 @@
 - 2025/01/06 [Azure Open AI](./blog-s09aoai.md)
 
 ## General
+- 2025/05/24 [公開鍵認証方式](./blog11-pubkey-auth.md)
 - 2025/05/24 [bash](./blog-bash.md)
 - 2025/04/12 [CPU Architectureについて](./blog_CPU-Architecture.md)
 - 2025/02/05 [ASDF](./blog_ASDF.md)
