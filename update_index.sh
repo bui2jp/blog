@@ -36,10 +36,14 @@ for file in blog*.md; do
     title=$(grep -m 1 '^# ' "$file" | sed 's/# //')
     # ファイル名を取得
     filename=$(basename "$file")
+    
+    escaped_title=$(escape_sed "$title")
+    escaped_filename=$(escape_sed "$filename")
 
     # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
     #sed -i "/$filename/c\- $mod_date [$title](./$filename)" "$TEMP_FILE"
     # sed $SED_OPTS "/$filename/c\\- $mod_date [$title](./$filename)" "$TEMP_FILE"
+    # sed $SED_OPTS "/$escaped_filename/c\\- $mod_date [$escaped_title](./$escaped_filename)" "$TEMP_FILE"
     sed $SED_OPTS "/$escaped_filename/c\\- $mod_date [$escaped_title](./$escaped_filename)" "$TEMP_FILE"
   fi
 done
