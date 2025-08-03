@@ -42,7 +42,9 @@ for file in blog*.md; do
       escaped_filename=$(escape_sed "$filename")
 
       # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
-      sed $SED_OPTS "/$escaped_filename/c\\- $mod_date [$escaped_title](./$escaped_filename)" "$TEMP_FILE"
+      #sed $SED_OPTS "/$escaped_filename/c\\- $mod_date [$escaped_title](./$escaped_filename)" "$TEMP_FILE"
+      # index.md 内にファイル名が存在する場合、その行を更新（更新日とタイトル）
+      sed $SED_OPTS "s|$escaped_filename|- $mod_date [$escaped_title](./$escaped_filename)|" "$TEMP_FILE"
     else
       echo "Warning: Skipping file '$file' due to missing title or filename."
     fi
