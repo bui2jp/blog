@@ -71,11 +71,13 @@ aws logs get-query-results \
 シェルにしておく
 ```
 bash <<EOF
+
 aws logs start-query \
-    --log-group-name <log-group-name> \
-    --start-time <start-time> \
-    --end-time <end-time> \
-    --query-string "<query-string>" \
-    --region <region> \
-    --profile <profile>
+    --log-group-names /aws/codepipeline/SimpleNodeJSBuild6 \
+    --start-time $(date -d "2025-02-16 00:00:00" +%s) \
+    --end-time $(date -d "2025-02-17 00:00:00" +%s) \
+    --query-string "fields @* | limit 1"
+
+    --query-string "fields @timestamp, @message | sort @timestamp desc | limit 20"
+
 EOF
